@@ -5,6 +5,17 @@
   "options": {
     "validateUpsert": true
   },
+  "mixins": {
+    "SetupRemoteMethods": {
+      "disableAllExcept": [
+        "find",
+        "findById",
+        "create",
+        "prototype.patchAttributes",
+        "deleteById"
+      ]
+    }
+  },
   "properties": {
     "nome": {
       "type": "string",

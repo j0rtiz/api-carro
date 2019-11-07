@@ -32,10 +32,6 @@
     "cor": {
       "type": "string",
       "required": true
-    },
-    "proprietario": {
-      "type": "string",
-      "required": true
     }
   },
   "validations": [],
