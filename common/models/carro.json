@@ -1,5 +1,5 @@
 {
-  "name": "Produto",
+  "name": "Carro",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -17,20 +17,24 @@
     }
   },
   "properties": {
-    "Nome": {
+    "marca": {
       "type": "string",
       "required": true
     },
-    "Tipo": {
+    "modelo": {
       "type": "string",
       "required": true
     },
-    "Local": {
+    "placa": {
       "type": "string",
       "required": true
     },
-    "Valor": {
-      "type": "number",
+    "cor": {
+      "type": "string",
+      "required": true
+    },
+    "proprietario": {
+      "type": "string",
       "required": true
     }
   },

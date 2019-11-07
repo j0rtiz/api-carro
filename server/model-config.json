@@ -37,7 +37,7 @@
     "dataSource": "db",
     "public": false
   },
-  "Produto": {
+  "Carro": {
     "dataSource": "db",
     "public": true
   }
