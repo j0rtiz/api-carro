@@ -26,10 +26,6 @@
     "eslint": "^6.6.0",
     "eslint-config-loopback": "^13.1.0"
   },
-  "repository": {
-    "type": "",
-    "url": ""
-  },
   "license": "MIT",
   "description": "api-carro"
 }

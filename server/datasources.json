@@ -1,11 +1,11 @@
 {
   "db": {
-    "host": "ec2-54-83-9-169.compute-1.amazonaws.com",
+    "host": "ec2-54-197-238-238.compute-1.amazonaws.com",
     "port": "5432",
-    "database": "d90v8ubhg3o30g",
-    "password": "c312359d9b5600830a208f72f8d6613e82d1cbdc518c530cd2baa7dde1106152",
+    "database": "d5m0cb9o5ov7dd",
+    "password": "03230b415f007467d81117ccadc03f15097165fd94f0e2a6c5a7f8d1ed70bc18",
     "name": "db",
-    "user": "iuruzabcbuuueh",
+    "user": "bbqmteqsyoxdog",
     "connector": "postgresql"
   }
 }
