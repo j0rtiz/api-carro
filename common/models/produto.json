@@ -1,0 +1,41 @@
+{
+  "name": "Produto",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "SetupRemoteMethods": {
+      "disableAllExcept": [
+        "find",
+        "findById",
+        "create",
+        "prototype.patchAttributes",
+        "deleteById"
+      ]
+    }
+  },
+  "properties": {
+    "Nome": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "Local": {
+      "type": "string",
+      "required": true
+    },
+    "Valor": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
