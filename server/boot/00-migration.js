@@ -1,13 +1,14 @@
 'use strict';
 
 module.exports = (app, cb) => {
-  let lbTables = {
+  const lbTables = {
     db: [
       'ACL',
       'RoleMapping',
       'Role',
       'AccessToken',
       'Carro',
+      'Cliente',
     ],
   };
 

@@ -40,5 +40,9 @@
   "Carro": {
     "dataSource": "db",
     "public": true
+  },
+  "Cliente": {
+    "dataSource": "db",
+    "public": true
   }
 }
